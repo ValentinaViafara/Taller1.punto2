@@ -6,7 +6,9 @@ public class Persona {
     private Carro[] carros;
 
     
-    
+      public Persona(String nombre) {
+        this.nombre = nombre;
+    }
     
     public boolean anadirCarro(Carro carro){
         int aux=0;
@@ -25,7 +27,13 @@ public class Persona {
     }
         return proceso;
     }
+
+  
     
+    
+    public Carro[] listarCarros(){
+        return this.carros;
+    }
     
     public String getNombre() {
         return nombre;
