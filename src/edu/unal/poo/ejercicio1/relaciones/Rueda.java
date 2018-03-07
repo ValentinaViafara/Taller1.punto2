@@ -39,7 +39,9 @@ public class Rueda {
     }
     
     
-    
+    public String toString(){
+        return "*La marca de las ruedas es= "+marca+". La medida de las ruedas es= "+medida+".  ";
+    }
     
     
     
